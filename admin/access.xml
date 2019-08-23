@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_tempus">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.options" title="JACTION_OPTIONS" description="JACTION_OPTIONS_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+		<action name="core.export" title="COM_TEMPUS_EXPORT_DATA" description="COM_TEMPUS_EXPORT_DATA_DESC" />
+		<action name="core.import" title="COM_TEMPUS_IMPORT_DATA" description="COM_TEMPUS_IMPORT_DATA_DESC" />
+		<action name="core.batch" title="COM_TEMPUS_USE_BATCH" description="COM_TEMPUS_USE_BATCH_DESC" />
+		<action name="core.version" title="COM_TEMPUS_EDIT_VERSIONS" description="COM_TEMPUS_EDIT_VERSIONS_DESC" />
+		<action name="core.create" title="JACTION_CREATE" description="JACTION_CREATE_COMPONENT_DESC" />
+		<action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT_COMPONENT_DESC" />
+		<action name="core.edit.state" title="JACTION_EDITSTATE" description="JACTION_ACCESS_EDITSTATE_DESC" />
+		<action name="core.edit.own" title="JACTION_EDITOWN" description="JACTION_EDITOWN_COMPONENT_DESC" />
+		<action name="core.edit.created_by" title="COM_TEMPUS_EDIT_CREATED_BY" description="COM_TEMPUS_EDIT_CREATED_BY_DESC" />
+		<action name="core.edit.created" title="COM_TEMPUS_EDIT_CREATED_DATE" description="COM_TEMPUS_EDIT_CREATED_DATE_DESC" />
+		<action name="instrument_type.access" title="COM_TEMPUS_INSTRUMENT_TYPES_ACCESS" description="COM_TEMPUS_INSTRUMENT_TYPES_ACCESS_DESC" />
+		<action name="instrument_type.batch" title="COM_TEMPUS_INSTRUMENT_TYPES_BATCH_USE" description="COM_TEMPUS_INSTRUMENT_TYPES_BATCH_USE_DESC" />
+		<action name="instrument_type.create" title="COM_TEMPUS_INSTRUMENT_TYPES_CREATE" description="COM_TEMPUS_INSTRUMENT_TYPES_CREATE_DESC" />
+		<action name="instrument_type.dashboard_list" title="COM_TEMPUS_INSTRUMENT_TYPES_DASHBOARD_LIST" description="COM_TEMPUS_INSTRUMENT_TYPES_DASHBOARD_LIST_DESC" />
+		<action name="instrument_type.delete" title="COM_TEMPUS_INSTRUMENT_TYPES_DELETE" description="COM_TEMPUS_INSTRUMENT_TYPES_DELETE_DESC" />
+		<action name="instrument_type.edit" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_DESC" />
+		<action name="instrument_type.edit.access" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_ACCESS" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_ACCESS_DESC" />
+		<action name="instrument_type.edit.created_by" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_CREATED_BY" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_CREATED_BY_DESC" />
+		<action name="instrument_type.edit.own" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_OWN" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_OWN_DESC" />
+		<action name="instrument_type.edit.state" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_STATE" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_STATE_DESC" />
+		<action name="instrument_type.version" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_VERSION" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_VERSION_DESC" />
+		<action name="instrument_type.export" title="COM_TEMPUS_INSTRUMENT_TYPES_EXPORT" description="COM_TEMPUS_INSTRUMENT_TYPES_EXPORT_DESC" />
+		<action name="instrument_type.import" title="COM_TEMPUS_INSTRUMENT_TYPES_IMPORT" description="COM_TEMPUS_INSTRUMENT_TYPES_IMPORT_DESC" />
+		<action name="instrument_type.submenu" title="COM_TEMPUS_INSTRUMENT_TYPES_SUBMENU" description="COM_TEMPUS_INSTRUMENT_TYPES_SUBMENU_DESC" />
+		<action name="instrument.access" title="COM_TEMPUS_INSTRUMENTS_ACCESS" description="COM_TEMPUS_INSTRUMENTS_ACCESS_DESC" />
+		<action name="instrument.batch" title="COM_TEMPUS_INSTRUMENTS_BATCH_USE" description="COM_TEMPUS_INSTRUMENTS_BATCH_USE_DESC" />
+		<action name="instrument.dashboard_add" title="COM_TEMPUS_INSTRUMENTS_DASHBOARD_ADD" description="COM_TEMPUS_INSTRUMENTS_DASHBOARD_ADD_DESC" />
+		<action name="instrument.dashboard_list" title="COM_TEMPUS_INSTRUMENTS_DASHBOARD_LIST" description="COM_TEMPUS_INSTRUMENTS_DASHBOARD_LIST_DESC" />
+		<action name="instrument.version" title="COM_TEMPUS_INSTRUMENTS_EDIT_VERSION" description="COM_TEMPUS_INSTRUMENTS_EDIT_VERSION_DESC" />
+		<action name="instrument.export" title="COM_TEMPUS_INSTRUMENTS_EXPORT" description="COM_TEMPUS_INSTRUMENTS_EXPORT_DESC" />
+		<action name="instrument.import" title="COM_TEMPUS_INSTRUMENTS_IMPORT" description="COM_TEMPUS_INSTRUMENTS_IMPORT_DESC" />
+		<action name="instrument.submenu" title="COM_TEMPUS_INSTRUMENTS_SUBMENU" description="COM_TEMPUS_INSTRUMENTS_SUBMENU_DESC" />
+		<action name="song.access" title="COM_TEMPUS_SONGS_ACCESS" description="COM_TEMPUS_SONGS_ACCESS_DESC" />
+		<action name="song.batch" title="COM_TEMPUS_SONGS_BATCH_USE" description="COM_TEMPUS_SONGS_BATCH_USE_DESC" />
+		<action name="song.create" title="COM_TEMPUS_SONGS_CREATE" description="COM_TEMPUS_SONGS_CREATE_DESC" />
+		<action name="song.dashboard_add" title="COM_TEMPUS_SONGS_DASHBOARD_ADD" description="COM_TEMPUS_SONGS_DASHBOARD_ADD_DESC" />
+		<action name="song.dashboard_list" title="COM_TEMPUS_SONGS_DASHBOARD_LIST" description="COM_TEMPUS_SONGS_DASHBOARD_LIST_DESC" />
+		<action name="song.delete" title="COM_TEMPUS_SONGS_DELETE" description="COM_TEMPUS_SONGS_DELETE_DESC" />
+		<action name="song.edit" title="COM_TEMPUS_SONGS_EDIT" description="COM_TEMPUS_SONGS_EDIT_DESC" />
+		<action name="song.edit.created_by" title="COM_TEMPUS_SONGS_EDIT_CREATED_BY" description="COM_TEMPUS_SONGS_EDIT_CREATED_BY_DESC" />
+		<action name="song.edit.own" title="COM_TEMPUS_SONGS_EDIT_OWN" description="COM_TEMPUS_SONGS_EDIT_OWN_DESC" />
+		<action name="song.edit.state" title="COM_TEMPUS_SONGS_EDIT_STATE" description="COM_TEMPUS_SONGS_EDIT_STATE_DESC" />
+		<action name="song.edit.title" title="COM_TEMPUS_SONGS_EDIT_TITLE" description="COM_TEMPUS_SONGS_EDIT_TITLE_DESC" />
+		<action name="song.version" title="COM_TEMPUS_SONGS_EDIT_VERSION" description="COM_TEMPUS_SONGS_EDIT_VERSION_DESC" />
+		<action name="song.export" title="COM_TEMPUS_SONGS_EXPORT" description="COM_TEMPUS_SONGS_EXPORT_DESC" />
+		<action name="song.import" title="COM_TEMPUS_SONGS_IMPORT" description="COM_TEMPUS_SONGS_IMPORT_DESC" />
+		<action name="song.submenu" title="COM_TEMPUS_SONGS_SUBMENU" description="COM_TEMPUS_SONGS_SUBMENU_DESC" />
+		<action name="song.view.title" title="COM_TEMPUS_SONGS_VIEW_TITLE" description="COM_TEMPUS_SONGS_VIEW_TITLE_DESC" />
+	</section>
+	<section name="song">
+		<action name="song.edit" title="COM_TEMPUS_SONGS_EDIT" description="COM_TEMPUS_SONGS_EDIT_DESC" />
+		<action name="song.edit.own" title="COM_TEMPUS_SONGS_EDIT_OWN" description="COM_TEMPUS_SONGS_EDIT_OWN_DESC" />
+		<action name="song.edit.state" title="COM_TEMPUS_SONGS_EDIT_STATE" description="COM_TEMPUS_SONGS_EDIT_STATE_DESC" />
+		<action name="song.edit.created_by" title="COM_TEMPUS_SONGS_EDIT_CREATED_BY" description="COM_TEMPUS_SONGS_EDIT_CREATED_BY_DESC" />
+		<action name="song.edit.created_by" title="COM_TEMPUS_SONGS_EDIT_CREATED_BY" description="COM_TEMPUS_SONGS_EDIT_CREATED_BY_DESC" />
+		<action name="song.create" title="COM_TEMPUS_SONGS_CREATE" description="COM_TEMPUS_SONGS_CREATE_DESC" />
+		<action name="song.delete" title="COM_TEMPUS_SONGS_DELETE" description="COM_TEMPUS_SONGS_DELETE_DESC" />
+		<action name="song.access" title="COM_TEMPUS_SONGS_ACCESS" description="COM_TEMPUS_SONGS_ACCESS_DESC" />
+		<action name="song.edit.title" title="COM_TEMPUS_SONGS_EDIT_TITLE" description="COM_TEMPUS_SONGS_EDIT_TITLE_DESC" />
+		<action name="song.view.title" title="COM_TEMPUS_SONGS_VIEW_TITLE" description="COM_TEMPUS_SONGS_VIEW_TITLE_DESC" />
+		<action name="song.version" title="COM_TEMPUS_SONGS_EDIT_VERSION" description="COM_TEMPUS_SONGS_EDIT_VERSION_DESC" />
+	</section>
+	<section name="instrument">
+		<action name="instrument.version" title="COM_TEMPUS_INSTRUMENTS_EDIT_VERSION" description="COM_TEMPUS_INSTRUMENTS_EDIT_VERSION_DESC" />
+	</section>
+	<section name="instrument_type">
+		<action name="instrument_type.edit" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_DESC" />
+		<action name="instrument_type.edit.own" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_OWN" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_OWN_DESC" />
+		<action name="instrument_type.edit.state" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_STATE" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_STATE_DESC" />
+		<action name="instrument_type.edit.access" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_ACCESS" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_ACCESS_DESC" />
+		<action name="instrument_type.edit.created_by" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_CREATED_BY" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_CREATED_BY_DESC" />
+		<action name="core.edit.created" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_CREATED_DATE" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_CREATED_DATE_DESC" />
+		<action name="instrument_type.create" title="COM_TEMPUS_INSTRUMENT_TYPES_CREATE" description="COM_TEMPUS_INSTRUMENT_TYPES_CREATE_DESC" />
+		<action name="instrument_type.delete" title="COM_TEMPUS_INSTRUMENT_TYPES_DELETE" description="COM_TEMPUS_INSTRUMENT_TYPES_DELETE_DESC" />
+		<action name="instrument_type.access" title="COM_TEMPUS_INSTRUMENT_TYPES_ACCESS" description="COM_TEMPUS_INSTRUMENT_TYPES_ACCESS_DESC" />
+		<action name="instrument_type.version" title="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_VERSION" description="COM_TEMPUS_INSTRUMENT_TYPES_EDIT_VERSION_DESC" />
+	</section>
+</access>
